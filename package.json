@@ -1,0 +1,15 @@
+{
+  "name": "v-uglifyjs-demo",
+  "version": "1.0.0",
+  "description": "uglifyjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "uglifyjs index.js --mangle-props keep_quoted -c -m",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uglify-js": "^3.17.0"
+  }
+}
